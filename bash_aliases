@@ -24,6 +24,8 @@ alias ram-info='sudo dmidecode --type 17'
 
 # Utilitários
 alias mkcdir='mkdir -p -- "$1"; and cd -P -- "$1"'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # Ferramentas de desenvolvimento
 alias python="python3"
